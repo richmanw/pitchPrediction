@@ -9,12 +9,10 @@ def main():
     outs = 0
 
     batter_name = input("Batter Name: ")
-    pitcher_name = input("Pitcher Name: ")
+    # pitcher_name = input("Pitcher Name: ")
 
-    scrapeProfile(batter_name)
-    #scrapeProfile(pitcher_name)
-
-
+    scrape_savant_profile(batter_name)
+    # scrapeProfile(pitcher_name)
 
 
 main()
